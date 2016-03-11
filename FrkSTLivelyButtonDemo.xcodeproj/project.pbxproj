@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741C89AC1C91753800C9FA62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 741C89AB1C91753800C9FA62 /* main.m */; };
+		741C89AF1C91753800C9FA62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 741C89AE1C91753800C9FA62 /* AppDelegate.m */; };
+		741C89B21C91753800C9FA62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741C89B11C91753800C9FA62 /* ViewController.m */; };
+		741C89B51C91753800C9FA62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741C89B31C91753800C9FA62 /* Main.storyboard */; };
+		741C89B71C91753800C9FA62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741C89B61C91753800C9FA62 /* Assets.xcassets */; };
+		741C89BA1C91753800C9FA62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741C89B81C91753800C9FA62 /* LaunchScreen.storyboard */; };
+		741C89C51C91753800C9FA62 /* FrkSTLivelyButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 741C89C41C91753800C9FA62 /* FrkSTLivelyButtonDemoTests.m */; };
+		741C89D01C91753800C9FA62 /* FrkSTLivelyButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 741C89CF1C91753800C9FA62 /* FrkSTLivelyButtonDemoUITests.m */; };
+		741C89DF1C91758E00C9FA62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741C89DE1C91758E00C9FA62 /* CoreGraphics.framework */; };
+		741C89E11C91759500C9FA62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741C89E01C91759500C9FA62 /* Foundation.framework */; };
+		741C89E31C9175A000C9FA62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741C89E21C9175A000C9FA62 /* UIKit.framework */; };
+		741C89E71C91760500C9FA62 /* FrkSTLivelyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 741C89E61C91760500C9FA62 /* FrkSTLivelyButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		741C89C11C91753800C9FA62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 741C899F1C91753700C9FA62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 741C89A61C91753800C9FA62;
+			remoteInfo = FrkSTLivelyButtonDemo;
+		};
+		741C89CC1C91753800C9FA62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 741C899F1C91753700C9FA62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 741C89A61C91753800C9FA62;
+			remoteInfo = FrkSTLivelyButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		741C89A71C91753800C9FA62 /* FrkSTLivelyButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrkSTLivelyButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		741C89AB1C91753800C9FA62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		741C89AD1C91753800C9FA62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		741C89AE1C91753800C9FA62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		741C89B01C91753800C9FA62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		741C89B11C91753800C9FA62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		741C89B41C91753800C9FA62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		741C89B61C91753800C9FA62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		741C89B91C91753800C9FA62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		741C89BB1C91753800C9FA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741C89C01C91753800C9FA62 /* FrkSTLivelyButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrkSTLivelyButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		741C89C41C91753800C9FA62 /* FrkSTLivelyButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrkSTLivelyButtonDemoTests.m; sourceTree = "<group>"; };
+		741C89C61C91753800C9FA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741C89CB1C91753800C9FA62 /* FrkSTLivelyButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrkSTLivelyButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		741C89CF1C91753800C9FA62 /* FrkSTLivelyButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrkSTLivelyButtonDemoUITests.m; sourceTree = "<group>"; };
+		741C89D11C91753800C9FA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741C89DE1C91758E00C9FA62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		741C89E01C91759500C9FA62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		741C89E21C9175A000C9FA62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		741C89E51C91760500C9FA62 /* FrkSTLivelyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrkSTLivelyButton.h; sourceTree = "<group>"; };
+		741C89E61C91760500C9FA62 /* FrkSTLivelyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrkSTLivelyButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		741C89A41C91753800C9FA62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741C89E31C9175A000C9FA62 /* UIKit.framework in Frameworks */,
+				741C89E11C91759500C9FA62 /* Foundation.framework in Frameworks */,
+				741C89DF1C91758E00C9FA62 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741C89BD1C91753800C9FA62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741C89C81C91753800C9FA62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741C899E1C91753700C9FA62 = {
+			isa = PBXGroup;
+			children = (
+				741C89A91C91753800C9FA62 /* FrkSTLivelyButtonDemo */,
+				741C89DD1C91757300C9FA62 /* Frameworks */,
+				741C89C31C91753800C9FA62 /* FrkSTLivelyButtonDemoTests */,
+				741C89CE1C91753800C9FA62 /* FrkSTLivelyButtonDemoUITests */,
+				741C89A81C91753800C9FA62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		741C89A81C91753800C9FA62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				741C89A71C91753800C9FA62 /* FrkSTLivelyButtonDemo.app */,
+				741C89C01C91753800C9FA62 /* FrkSTLivelyButtonDemoTests.xctest */,
+				741C89CB1C91753800C9FA62 /* FrkSTLivelyButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		741C89A91C91753800C9FA62 /* FrkSTLivelyButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				741C89E41C9175E900C9FA62 /* FrkSTLivelyButton */,
+				741C89AD1C91753800C9FA62 /* AppDelegate.h */,
+				741C89AE1C91753800C9FA62 /* AppDelegate.m */,
+				741C89B01C91753800C9FA62 /* ViewController.h */,
+				741C89B11C91753800C9FA62 /* ViewController.m */,
+				741C89B31C91753800C9FA62 /* Main.storyboard */,
+				741C89AA1C91753800C9FA62 /* Supporting Files */,
+			);
+			path = FrkSTLivelyButtonDemo;
+			sourceTree = "<group>";
+		};
+		741C89AA1C91753800C9FA62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				741C89B61C91753800C9FA62 /* Assets.xcassets */,
+				741C89B81C91753800C9FA62 /* LaunchScreen.storyboard */,
+				741C89BB1C91753800C9FA62 /* Info.plist */,
+				741C89AB1C91753800C9FA62 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		741C89C31C91753800C9FA62 /* FrkSTLivelyButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				741C89C41C91753800C9FA62 /* FrkSTLivelyButtonDemoTests.m */,
+				741C89C61C91753800C9FA62 /* Info.plist */,
+			);
+			path = FrkSTLivelyButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		741C89CE1C91753800C9FA62 /* FrkSTLivelyButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				741C89CF1C91753800C9FA62 /* FrkSTLivelyButtonDemoUITests.m */,
+				741C89D11C91753800C9FA62 /* Info.plist */,
+			);
+			path = FrkSTLivelyButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		741C89DD1C91757300C9FA62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				741C89E21C9175A000C9FA62 /* UIKit.framework */,
+				741C89E01C91759500C9FA62 /* Foundation.framework */,
+				741C89DE1C91758E00C9FA62 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		741C89E41C9175E900C9FA62 /* FrkSTLivelyButton */ = {
+			isa = PBXGroup;
+			children = (
+				741C89E51C91760500C9FA62 /* FrkSTLivelyButton.h */,
+				741C89E61C91760500C9FA62 /* FrkSTLivelyButton.m */,
+			);
+			path = FrkSTLivelyButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		741C89A61C91753800C9FA62 /* FrkSTLivelyButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741C89D41C91753800C9FA62 /* Build configuration list for PBXNativeTarget "FrkSTLivelyButtonDemo" */;
+			buildPhases = (
+				741C89A31C91753800C9FA62 /* Sources */,
+				741C89A41C91753800C9FA62 /* Frameworks */,
+				741C89A51C91753800C9FA62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrkSTLivelyButtonDemo;
+			productName = FrkSTLivelyButtonDemo;
+			productReference = 741C89A71C91753800C9FA62 /* FrkSTLivelyButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		741C89BF1C91753800C9FA62 /* FrkSTLivelyButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741C89D71C91753800C9FA62 /* Build configuration list for PBXNativeTarget "FrkSTLivelyButtonDemoTests" */;
+			buildPhases = (
+				741C89BC1C91753800C9FA62 /* Sources */,
+				741C89BD1C91753800C9FA62 /* Frameworks */,
+				741C89BE1C91753800C9FA62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				741C89C21C91753800C9FA62 /* PBXTargetDependency */,
+			);
+			name = FrkSTLivelyButtonDemoTests;
+			productName = FrkSTLivelyButtonDemoTests;
+			productReference = 741C89C01C91753800C9FA62 /* FrkSTLivelyButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		741C89CA1C91753800C9FA62 /* FrkSTLivelyButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741C89DA1C91753800C9FA62 /* Build configuration list for PBXNativeTarget "FrkSTLivelyButtonDemoUITests" */;
+			buildPhases = (
+				741C89C71C91753800C9FA62 /* Sources */,
+				741C89C81C91753800C9FA62 /* Frameworks */,
+				741C89C91C91753800C9FA62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				741C89CD1C91753800C9FA62 /* PBXTargetDependency */,
+			);
+			name = FrkSTLivelyButtonDemoUITests;
+			productName = FrkSTLivelyButtonDemoUITests;
+			productReference = 741C89CB1C91753800C9FA62 /* FrkSTLivelyButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		741C899F1C91753700C9FA62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Frank;
+				TargetAttributes = {
+					741C89A61C91753800C9FA62 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					741C89BF1C91753800C9FA62 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 741C89A61C91753800C9FA62;
+					};
+					741C89CA1C91753800C9FA62 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 741C89A61C91753800C9FA62;
+					};
+				};
+			};
+			buildConfigurationList = 741C89A21C91753700C9FA62 /* Build configuration list for PBXProject "FrkSTLivelyButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 741C899E1C91753700C9FA62;
+			productRefGroup = 741C89A81C91753800C9FA62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				741C89A61C91753800C9FA62 /* FrkSTLivelyButtonDemo */,
+				741C89BF1C91753800C9FA62 /* FrkSTLivelyButtonDemoTests */,
+				741C89CA1C91753800C9FA62 /* FrkSTLivelyButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		741C89A51C91753800C9FA62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741C89BA1C91753800C9FA62 /* LaunchScreen.storyboard in Resources */,
+				741C89B71C91753800C9FA62 /* Assets.xcassets in Resources */,
+				741C89B51C91753800C9FA62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741C89BE1C91753800C9FA62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741C89C91C91753800C9FA62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		741C89A31C91753800C9FA62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741C89B21C91753800C9FA62 /* ViewController.m in Sources */,
+				741C89E71C91760500C9FA62 /* FrkSTLivelyButton.m in Sources */,
+				741C89AF1C91753800C9FA62 /* AppDelegate.m in Sources */,
+				741C89AC1C91753800C9FA62 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741C89BC1C91753800C9FA62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741C89C51C91753800C9FA62 /* FrkSTLivelyButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741C89C71C91753800C9FA62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741C89D01C91753800C9FA62 /* FrkSTLivelyButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		741C89C21C91753800C9FA62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 741C89A61C91753800C9FA62 /* FrkSTLivelyButtonDemo */;
+			targetProxy = 741C89C11C91753800C9FA62 /* PBXContainerItemProxy */;
+		};
+		741C89CD1C91753800C9FA62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 741C89A61C91753800C9FA62 /* FrkSTLivelyButtonDemo */;
+			targetProxy = 741C89CC1C91753800C9FA62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		741C89B31C91753800C9FA62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741C89B41C91753800C9FA62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		741C89B81C91753800C9FA62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741C89B91C91753800C9FA62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		741C89D21C91753800C9FA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		741C89D31C91753800C9FA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		741C89D51C91753800C9FA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FrkSTLivelyButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.FrkSTLivelyButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		741C89D61C91753800C9FA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FrkSTLivelyButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.FrkSTLivelyButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		741C89D81C91753800C9FA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FrkSTLivelyButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.FrkSTLivelyButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrkSTLivelyButtonDemo.app/FrkSTLivelyButtonDemo";
+			};
+			name = Debug;
+		};
+		741C89D91C91753800C9FA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FrkSTLivelyButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.FrkSTLivelyButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrkSTLivelyButtonDemo.app/FrkSTLivelyButtonDemo";
+			};
+			name = Release;
+		};
+		741C89DB1C91753800C9FA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FrkSTLivelyButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.FrkSTLivelyButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FrkSTLivelyButtonDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		741C89DC1C91753800C9FA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FrkSTLivelyButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.FrkSTLivelyButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FrkSTLivelyButtonDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		741C89A21C91753700C9FA62 /* Build configuration list for PBXProject "FrkSTLivelyButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741C89D21C91753800C9FA62 /* Debug */,
+				741C89D31C91753800C9FA62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741C89D41C91753800C9FA62 /* Build configuration list for PBXNativeTarget "FrkSTLivelyButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741C89D51C91753800C9FA62 /* Debug */,
+				741C89D61C91753800C9FA62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		741C89D71C91753800C9FA62 /* Build configuration list for PBXNativeTarget "FrkSTLivelyButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741C89D81C91753800C9FA62 /* Debug */,
+				741C89D91C91753800C9FA62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		741C89DA1C91753800C9FA62 /* Build configuration list for PBXNativeTarget "FrkSTLivelyButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741C89DB1C91753800C9FA62 /* Debug */,
+				741C89DC1C91753800C9FA62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 741C899F1C91753700C9FA62 /* Project object */;
+}
